@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffebee;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    position: relative;
+}
+
+.heart {
+    width: 100px;
+    height: 100px;
+    background: url('https://image.shutterstock.com/image-vector/heart-icon-vector-260nw-1115080046.jpg') no-repeat center/cover;
+    margin: 0 auto;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+
+h1 {
+    color: #e91e63;
+}
+
+p {
+    color: #757575;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #d81b60;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #757575;
+}
+
+#noBtn {
+    position: absolute;
+}
+
+
+.heart {
+    width: 100px;
+    height: 100px;
+    background: url('https://image.shutterstock.com/image-vector/heart-icon-vector-260nw-1115080046.jpg') no-repeat center/cover;
+    margin: 0 auto;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+
+h1 {
+    color: #e91e63;
+}
+
+p {
+    color: #757575;
+    line-height: 1.6;
+}
+
