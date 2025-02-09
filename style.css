@@ -21,7 +21,7 @@ body {
 .heart {
     width: 100px;
     height: 100px;
-    background: url('https://image.shutterstock.com/image-vector/heart-icon-vector-260nw-1115080046.jpg') no-repeat center/cover;
+    background: url('https://th.bing.com/th/id/OIP.AVJbWCQNPHWUTvjOPEuaZAHaHa?w=794&h=794&rs=1&pid=ImgDetMain') no-repeat center/cover;
     margin: 0 auto;
     animation: heartbeat 1s infinite;
 }
@@ -69,7 +69,7 @@ button:hover {
 .heart {
     width: 100px;
     height: 100px;
-    background: url('https://image.shutterstock.com/image-vector/heart-icon-vector-260nw-1115080046.jpg') no-repeat center/cover;
+    background: url('https://th.bing.com/th/id/OIP.AVJbWCQNPHWUTvjOPEuaZAHaHa?w=794&h=794&rs=1&pid=ImgDetMain') no-repeat center/cover;
     margin: 0 auto;
     animation: heartbeat 1s infinite;
 }
